@@ -1,0 +1,14 @@
+.grid {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 8fr;
+    grid-row: auto;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    border: 1px solid green;
+    grid: auto;
+    width: 200px;
+    height: 200px;
+}
